@@ -90,7 +90,7 @@ def get_player_info(player_names):
 	# number of good and evil roles
 	if num_players < 7:
 		num_evil = 2
-	elif num_players < 9:
+	elif num_players <= 9:
 		num_evil = 3
 	else:
 		num_evil = 4

@@ -12,31 +12,31 @@ THavalon has a game engine, written in Python3, that is used to generate files c
 
 After running this code, allow each player to view the text file in the <code>/game/</code> directory that bears their name (e.g. Alice would read the file titled <code>Alice</code>). Once every player has looked at the contents of their information file, view the <code>start</code>, also in the /game/ directory, to see who has the first proposal of the first round, and let the game begin.
 
-The game engine also generates an additional file (<code>/game/DoNotOpen</code>) which provides a list of all of the players' teams and roles. As the name of the file suggests, it should not be opened by players while the game is underway, but it can be interesting to read after the game has finished. 
+The game engine also generates an additional file (<code>/game/DoNotOpen</code>) which provides a list of all of the players' teams and roles. As the name of the file suggests, it should not be opened by players while the game is underway, but it can be interesting to read after the game has finished.
 
-# Rules 
-THavalon follows the same rules as The Resistance: Avalon, with the modifications and exceptions listed below. If there is a conflict between the rules of Avalon and the rules of THavalon, then use the rules of THavalon. (If you encounter such a conflict, please contact me so that I can investigate and resolve the conflict). 
+# Rules
+THavalon follows the same rules as The Resistance: Avalon, with the modifications and exceptions listed below. If there is a conflict between the rules of Avalon and the rules of THavalon, then use the rules of THavalon. (If you encounter such a conflict, please contact me so that I can investigate and resolve the conflict).
 
 ## Good Roles
 - *Merlin*: sees all players that are either Evil (except Mordred) or are Lancelot; can be Assassinated.
 - *Percival*: sees Merlin and Morgana, but cannot distinguish which role each seen player has.
 - *Tristan* and *Iseult*: see each other; always appear together; can be Assassinated as a pair.
 - *Lancelot*: may play Reversal cards while on missions; appears Evil to Merlin.
-- *Nimue* (5): knows which roles are in the game; can be Assassinated. 
+- *Nimue* (5): knows which roles are in the game; can be Assassinated.
 - *Arthur* (7+): knows which Good roles are present; may declare after 2 Failed and 0-1 Successful missions to make their votes on mission proposals count twice, but lose the ability to be on mission teams until the 5th mission.
-- *Titania* (7+): appears as Evil to Evil roles (except Colgrevance). 
+- *Titania* (7+): appears as Evil to Evil roles (except Colgrevance).
 
 ## Evil Roles
 - *Mordred*: is hidden from Merlin.
-- *Morgana*: appears like Merlin to Percival. 
+- *Morgana*: appears like Merlin to Percival.
 - *Maelagant*: may play Reversal cards while on missions.
 - *Agravaine* (8+):  must play Fails; may declare after having been on a successful mission to cause it to Fail instead.
 - *Colgrevance* (10): is hidden from other Evil roles; knows which player has each Evil role.
 
-## Proposals 
-In each round, players take turns proposing teams with the appropriate number of players. During the first round, only two players are permitted to make proposals; in subsequent rounds, there may be a number of proposals up to one more than the number of Evil players in the game (e.g. 3 proposals for 5- and 6-player, 4 proposals for 7-, 8-, and 9- player, and 5 proposals for 10 player). When making a proposal, the leader of the mission selects an appropriate number of people for the mission and submits their final selection for voting. 
+## Proposals
+In each round, players take turns proposing teams with the appropriate number of players. During the first round, only two players are permitted to make proposals; in subsequent rounds, there may be a number of proposals up to one more than the number of Evil players in the game (e.g. 3 proposals for 5- and 6-player, 4 proposals for 7-, 8-, and 9- player, and 5 proposals for 10 player). When making a proposal, the leader of the mission selects an appropriate number of people for the mission and submits their final selection for voting.
 
-## Voting 
+## Voting
 Voting in THavalon functions identically to voting in the base game, except with respect to the last mission proposal of a round. If a proposal is the last proposal of the round, the voting phase is skipped and the selected team immediately goes on the mission.
 
 ## Going on Missions
